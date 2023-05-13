@@ -1,0 +1,47 @@
+.banner2 {
+    background-image: url(../img/banner2.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .perros {
+        top: 35%;
+        left: 25%;
+    }
+    .gatos {
+        top: 35%;
+        left: 55%;
+    }
+
+}
+
+.adoptables {
+    text-align: center;
+
+    @each $alineacion in h1, h2 {
+        #{$alineacion}{
+            text-align: left;
+        }
+    }
+    
+    img {
+        margin-top: 15px;
+        
+    }
+
+        .abajo:hover {
+                box-shadow: 1px 1px 30px rgb(192, 192, 192);
+                h4 {
+                    font-size: 25px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+            }
+    .caja {
+        height: 450px;
+    }
+
+}

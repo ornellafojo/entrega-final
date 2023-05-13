@@ -1,0 +1,35 @@
+.banner1 {
+    background-image: url(../img/banner1.jpg);
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .titulo_index {
+        text-align: center;
+        position: absolute;
+        color: $color_1;
+        font-size: 84pt;
+        font-weight: 900;
+        left: 0;
+        top: 25%;
+        animation-name: inicio;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        background-color: $color_fondo;
+        padding-bottom: 50px;
+    }
+
+    @keyframes inicio {
+        0% {color: rgba(255, 255, 255, 0);}
+        100% {color: $color_1;}
+    }
+
+    .botones_i {
+        display: none;
+    }
+
+
+
+}

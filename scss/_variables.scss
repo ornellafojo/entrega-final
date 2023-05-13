@@ -1,0 +1,18 @@
+$color_principal: violet;
+$color_secundario: purple;
+$color_1: black;
+$color_2: white;
+$color_fondo: rgba(238, 129, 238, 0.6);
+$margen: 50px;
+
+$colores:dia;
+body{
+    @if $colores == noche {
+        background-color: rgb(31, 31, 32);
+        color: white;
+        .footer_text, textarea {
+            background-color: black;
+            color: white;
+        }
+    }
+}
