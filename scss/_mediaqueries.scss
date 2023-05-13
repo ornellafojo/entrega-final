@@ -69,37 +69,41 @@
     }
     
     .banner1 {
-        height: 700px;
+        height: 750px;
         .titulo_index {
             font-size: 25pt;
             top: 50px;
             width: 100%;
             padding-bottom: 50px;
             color: $color_2;
-            
+
             @keyframes inicio {
                 0% {color: rgba(255, 255, 255, 0);}
                 100% {color: $color_2;}
             }
         }
+
         .botones_i {
             top: 250px;
             display: flex;
             text-transform: uppercase;
         }
+
         .botones {
             position: relative;
-            height: 90px;
+            height: 110px;
             width: 100%;
             margin: 5px 0;
             top: 250px;
         }
     }
+
     .text_sm {
         width: 100%;
     }
 
 }
+
 @media screen and (min-width: 900px) {
     .equipo {
         :hover {

@@ -362,7 +362,7 @@ textarea {
     height: auto;
   }
   .banner1 {
-    height: 700px;
+    height: 750px;
   }
   .banner1 .titulo_index {
     font-size: 25pt;
@@ -386,7 +386,7 @@ textarea {
   }
   .banner1 .botones {
     position: relative;
-    height: 90px;
+    height: 110px;
     width: 100%;
     margin: 5px 0;
     top: 250px;
